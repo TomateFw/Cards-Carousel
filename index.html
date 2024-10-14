@@ -1,0 +1,42 @@
+HTML:
+<div class="wrapper">
+    <div class="card card1"></div>
+    <div class="card card2"></div>
+    <div class="card card3"></div>
+    <div class="card card4"></div>
+<style>
+body{
+	background-color: #000000;
+	display: grid;
+	place-items: center;
+
+}
+.wrapper{
+	display: flex;
+	width: 600px;
+	height: 300px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.card1{
+	background-color: #f77c73;
+}
+.card2{
+	background-color: #6cbdff;
+}
+.card3{
+	background-color: #71ff76;
+}
+.card4{
+	background-color: #ffd65d;
+}
+.card{
+	flex: 1;
+	height: 100%;
+	transition: flex 0.5s ease;
+	cursor: pointer;
+}
+.card:hover{
+	flex: 3;
+}
+  </style>
